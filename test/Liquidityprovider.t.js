@@ -9,7 +9,7 @@ describe("LiquidityProvider", function () {
     beforeEach(async function () {
         [owner, addr1] = await ethers.getSigners();
 
-        const nfpmAddress = "0xC36442b4a4522E871399CD717aBDD847Ab11FE88"; // Uniswap V3 NonfungiblePositionManager
+        const nfpmAddress = "0x27F971cb582BF9E50F397e4d29a5C7A34f11faA2"; // Uniswap V3 NonfungiblePositionManager
         const daiAddress = DAI_ADDRESS; 
         const arbAddress = ARB_ADDRESS; 
 
